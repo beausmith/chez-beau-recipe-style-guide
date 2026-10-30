@@ -1,0 +1,8 @@
+# Ignore everything by default — this repo publishes only the style guide.
+*
+
+# Published files
+!.gitignore
+!chez_beau_recipe_style_guide.md
+!readme.md
+!LICENSE.md
