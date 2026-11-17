@@ -111,7 +111,7 @@ Keep the Description concise — one short paragraph in most cases. It may take 
 
 The Ingredient list appears before the Equipment list in the recipe file. _Rationale: ingredients drive shopping; equipment is a downstream check once the cook is back in the kitchen with the groceries._
 
-The ingredient list is intended for shopping and must be kept clean and scalable.
+The ingredient list is intended for shopping and must be kept clean and scalable. It assumes cooking from zero; a chef holding pre-prepped components is trusted to substitute per their experience.
 
 List ingredients in the order they are first used in the cooking steps.
 
@@ -154,7 +154,7 @@ Do not include qualifiers that describe how an ingredient is divided or used acr
 
 _Rationale: An experienced cook scales or adapts from a stated quantity, but an unstated one cannot be logged in a food tracking application or reproduced by anyone else._
 
-**Line format.** Quantity precedes the ingredient name. When a substitution is available for an ingredient, list it in parentheses after the primary ingredient.
+**Line format.** Quantity precedes the ingredient name. When a substitution is available for an ingredient, list it in parentheses after the primary ingredient. Never embed a derived absolute quantity — a process benchmark, an intermediate yield — later in the line: Paprika scales only the leading amount, so anything after it falls out of sync when the recipe is scaled (see _Process Checkpoints_, Section 3).
 
 > *"2 tablespoons parsley (or dill)"*
 > *"0.5 cup crème fraîche (sour cream)"*
@@ -421,6 +421,12 @@ Instructions never state an absolute ingredient measurement in any form — not 
 
 Use exact measurements in instructions only where precision is genuinely required for technique — salt for pasta water ("1 tablespoon of kosher salt per quart of water"), a measured liquid for sauce consistency ("1 cup of the reserved pasta water").
 
+**Process checkpoints.** An intermediate weight or yield checkpoint (e.g., a roasted weight) is expressed relatively in the instructions — as a percentage or fraction of the starting quantity — so it survives scaling. Do not state the absolute benchmark anywhere: not in the instructions, and not attached to the ingredient line, where Paprika's scaling (which adjusts only the leading amount of a line) would leave it out of sync.
+
+> *"The mushrooms should have lost about 60% of their raw weight; weigh them to check." — not "The roasted mushrooms should weigh 400–425 g"*
+
+Per-unit specifications — the weight of one portion, one truffle, one cookie — are not batch checkpoints and may stay exact in the instructions; scaling a recipe changes the count of units, not their size.
+
 This rule governs ingredient quantities. Physical dimensions in technique — pan sizes, slice thickness, headspace — are not ingredient measurements and follow the numeral conventions of Section 4 ("1-inch cubes"). Fractional dimensions are written as decimals, never spelled out or given as fraction symbols: *"0.5 inch from the top," "slices 0.125 inch thick."*
 
 ### Standard Phrases
@@ -466,6 +472,8 @@ When measurements or amounts are used as adjectives preceding a noun, hyphenate 
 > *"330 g (2.67 cups) all-purpose flour"*
 
 **Recipe classification.** A baking recipe is defined by category — bread, pastry, desserts — not by technique. An oven-cooked savory dish is not a baking recipe. *Rationale: ratio precision governs doughs and batters; an oven alone does not make a recipe demand that precision.*
+
+**Fermentation and other precision recipes** — shio koji, brines, cures, and enzyme- or hydrocolloid-driven preparations (transglutaminase, gels) — follow the baking convention: metric is primary, with imperial equivalents in parentheses. *Rationale: these preparations are governed by ingredient ratios by weight; grams keep the ratio exact where volume measures vary by salt brand and ingredient form.*
 
 If a metric equivalent in a source recipe appears inaccurate, flag it with a note rather than silently correcting it.
 
